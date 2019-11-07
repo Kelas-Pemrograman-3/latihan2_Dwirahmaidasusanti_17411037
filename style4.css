@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+body{
+  padding: 0px;
+    margin: 0px;
+    font-family: century gothic;
+    background:url(position-center-center.png);
+background-size: 140%;
+position: relative;
+background-position: 0px;
+}
+
+.profil{
+  text-align: center;
+  margin:3% 30%;
+  background-color: rgba(255, 255, 255, 0.5);
+  top: 3%;
+}
+
+img{
+  width: 30%;
+  position: relative;
+  top: 3%;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+nav ul {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 0px 20px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100% ;
+}
+nav ul li{
+    float: left;
+}
+
+nav ul li:hover a {
+    background: #000000;
+}
+
+nav ul li a {
+    display: block;
+    padding: 25px;
+    text-decoration: none;
+
+}
+
+nav ul ul {
+    background: #704b30;
+    border-radius: 0px;
+    padding: 0;
+    position: absolute;
+}
+
+nav ul ul li {
+    float: none;
+    border-top: 1px;
+    border-bottom: 1px;
+    position: relative;
+}
+
+nav ul ul li a {
+    padding: 15px 40px;
+    color: whitesmoke;
+}
+
+nav ul ul li a:hover{
+    background-color: #704b30;
+
+}
+
+nav ul ul{
+    display: none;
+}
+
+nav ul li:hover > ul {
+    display: block;
+    width: 130px;
+}
+
+.container {
+    padding: 35px;
+}
+
+h2 {
+    color:#7d4b27;
+    margin-bottom: 5px;
+    position: relative;
+    border-radius: 22px;
+    
+}
